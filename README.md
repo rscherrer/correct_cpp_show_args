@@ -12,7 +12,7 @@ master|[![Build Status](https://travis-ci.org/richelbilderbeek/correct_cpp_show_
 
 ## Prerequisites
 
- * Understand [how this course works](https://github.com/richelbilderbeek/correct_cpp/blob/master/how_this_course_works.md)
+ * Understand [how this course works](https://github.com/richelbilderbeek/correct_cpp/blob/master/doc/how_this_course_works.md)
  * Have written [a correct 'hello_cli' program](https://github.com/richelbilderbeek/correct_cpp_hello_cli)
 
 ## Exercise
