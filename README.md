@@ -25,6 +25,7 @@ Call to `show_args`|Output|Exit status
 `./show_args hello`|`show_args hello` (with newline)|0
 `./show_args hello world`|`show_args hello world` (with newline)|0
 
+ * Do not use `for`
  * [argv](https://github.com/richelbilderbeek/cpp/blob/master/content/CppArgv.md) must be converted to a [std::vector](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdVector.md)<[std::string](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdString.md)>
  * Use [std::copy](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdCopy.md) to display the command-line arguments with [std::cout](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdCout.md)
 
