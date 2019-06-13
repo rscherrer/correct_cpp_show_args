@@ -4,9 +4,9 @@
 
 /// Function to print the content of a vector
 template <class T>
-void coutVector(const std::vector<T>& v)
+void coutVector(const std::vector<T>& myvec)
 {
-    std::copy(std::begin(v), std::end(v), std::ostream_iterator<T>(std::cout, " "));
+    std::copy(std::begin(myvec), std::end(myvec), std::ostream_iterator<T>(std::cout, " "));
 }
 
 /// Main function
