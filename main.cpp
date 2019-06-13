@@ -1,11 +1,25 @@
 #include <iostream>
+#include <vector>
+#include <iterator>
 
-int main(int argc, char* argv[])
+/// Function to print the content of a vector
+template <class T>
+void coutVector(const std::vector<T>& v)
 {
-  std::cout << argv[0];
-  for (int i=0; i!=argc; ++i)
-  {
-    std::cout << ' '  << argv[i];
-  }
-  std::cout << '\n';
+    std::copy(std::begin(v), std::end(v), std::ostream_iterator<T>(std::cout, " "));
+}
+
+/// Main function
+int main(int argc, char * argv[]) {
+
+    // Convert arguments into a vector of strings
+    std::vector<std::string> arguments(argv, argv + argc);
+
+    // Print arguments to the prompt
+    coutVector(arguments);
+
+    std::cout << "\n";
+
+    return 0;
+
 }
